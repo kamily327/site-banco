@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+background: white;
+
+}
+#nav-barra{
+ width: 100%;
+ 
+     background: white;
+   position: fixed;
+     font-family:"Bebas Neue", seri;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+}
+#logo{
+    flex: 10%;
+  
+       color:  #0c1e6df6 ;
+       text-shadow: 3px 6px 4px rgb(175, 173, 196);
+       margin-left: 5%;
+       padding: 20px;
+       font-size: 45px;
+}
+#imglogo{
+  position: relative;
+  right: 326px;
+  top: 1px;
+  
+}
+#menu{
+      flex: 10%;
+      margin-left: 11%;
+}
+#menu a {
+     padding: 15px;
+     color: black;
+     font-size: 22px;
+     text-decoration: none;
+}
+#fale{
+     padding: 10px 14px !important;
+}
+#menu :hover{
+    color:#f39903 ;
+    border-radius: 15px;
+    padding: 20px ;
+    background: #0f3657;
+}
+#fale:hover{
+    color:#f39903   !important;
+    padding: 20px !important;
+    border-radius: 15px !important;
+}
+#header{
+    display: flex;
+     flex-flow: row wrap;
+    justify-content: center;
+    
+    font-family:"Bebas Neue", seri;
+    margin-left: 7%;
+  
+} 
+#entre{
+    letter-spacing: 0;
+    margin-left: 50px;
+}
+header h2{
+  letter-spacing: 15px;
+  font-size: 35px;
+}
+#headline{
+   
+    margin-top: 200px;
+   font-size: 30px;
+}
+
+
+#img{
+    float: right;
+    width: 500px !important;
+    margin-top: 120px;
+    margin-right: 5%;
+}
+#button{
+     border: none;
+     background-color: #0f3657;
+     color: white;
+     padding: 14px 16px;
+     border-radius: 10px;
+     font-size: 20px;
+     font-family:"Bebas Neue", seri;
+}
+#button:hover{
+    color:#f39903 ;
+}
+#conteudo-inicial{
+   font-size: 14px;
+   width: 700px;
+   padding-bottom: 30px;
+   padding-top: 10px;
+   color: rgb(53, 49, 49);
+   font-family: Arial, Helvetica, sans-serif;
+}
+#card{
+     border: 2px solid ;
+     border-radius: 10px;
+     border-color: #0f3657;
+     display: inline-block;
+     text-align: center;
+     margin: 1%;
+     width: 26%;
+     padding: 30px;
+     
+}
+
+
+#card-text h2{
+    font-family:"Bebas Neue", seri;
+    text-align: center;
+
+}
+
+#card-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#texto-oculto{
+ display: none;
+}
+#card:hover{
+    padding: 50px;
+    color: white;
+    background-color: #f3a928;
+}
+#card:hover #card-text{
+    display: none;
+}
+#card:hover img{
+    display: none;
+}
+#card:hover #texto-oculto{
+   display: block;
+}
+section #negocios{
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+    margin-right: 140px;
+    font-size: 23px;
+    font-family:"Bebas Neue", seri;
+}
+section {
+ 
+   margin-left: 14%;
+   margin-right: 2%;
+
+}
+#section-final{
+    border: 2px solid black;
+     height: 300px;
+     display: flex;
+    background-color: blue;
+    
+}
+footer{
+    border-top: 6px solid #0f3657;
+    margin-top: 30px;
+    background-image: linear-gradient( to bottom ,white,  #0f3657 90%  );
+    height: 300px;
+   
+}
+footer h1{
+   
+ 
+     font-size: 38px;
+     text-align: center;
+     text-shadow: 2px 3px 4px white;
+     font-weight: 700;
+     margin-top: 50px;
+    font-family:"Bebas Neue", seri;
+    color: #060b50;
+}
+footer p {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+
+}
+#nome-final{
+    margin-top: 60px;
+
+}
